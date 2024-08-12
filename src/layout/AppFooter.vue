@@ -75,8 +75,7 @@
           <div class="copyright">
             &copy; {{ year }}
             <a
-              href="https://www.creative-tim.com"
-              target="_blank"
+              href="#"
               rel="noopener"
               >Lotus company</a
             >
@@ -88,7 +87,6 @@
               <a
                 href="#"
                 class="nav-link"
-                target="_blank"
                 rel="noopener"
                 >Trang chủ</a
               >
@@ -97,7 +95,6 @@
               <a
                 href="#about"
                 class="nav-link"
-                target="_blank"
                 rel="noopener"
                 >Giới thiệu</a
               >
@@ -106,7 +103,6 @@
               <a
                 href="#solution"
                 class="nav-link"
-                target="_blank"
                 rel="noopener"
                 >Giải pháp</a
               >
