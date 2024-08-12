@@ -31,7 +31,7 @@
       </section>
       <!-- 1st Hero Variation -->
     </div>
-    <section class="section py-5">
+    <section class="section py-5" id="about">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
@@ -41,12 +41,12 @@
             <div class="pr-md-5">
               <h2>VỀ CHÚNG TÔI</h2>
               <p>
-                Công ty cổ phần vật tư & thiết bị LOTUS được thành
-                lập từ năm ... trên cơ sở kinh nghiệm hoạt động trong lĩnh vực
-                công nghiệp điện từ những năm ... của các thành viên sáng lập.
-                Đây là giai đoạn phát triển mạnh mẽ của hệ thống điện Việt Nam
-                trong công cuộc công nghiệp hoá và hiện đại hoá đất nước, đã tạo
-                nên một động lực thúc đẩy cho sự phát triển của Công ty.
+                Công ty cổ phần vật tư & thiết bị LOTUS được thành lập từ năm
+                ... trên cơ sở kinh nghiệm hoạt động trong lĩnh vực công nghiệp
+                điện từ những năm ... của các thành viên sáng lập. Đây là giai
+                đoạn phát triển mạnh mẽ của hệ thống điện Việt Nam trong công
+                cuộc công nghiệp hoá và hiện đại hoá đất nước, đã tạo nên một
+                động lực thúc đẩy cho sự phát triển của Công ty.
               </p>
               <!-- <ul class="list-unstyled mt-5">
                 <li class="py-2">
@@ -88,7 +88,7 @@
         </div>
       </div>
     </section>
-    <section class="section section-lg pt-lg-0">
+    <section class="section section-lg py-3" id="solution">
       <div class="container">
         <h2 class="text-center my-5">Lĩnh vực – Giải pháp</h2>
         <div class="row justify-content-center">
@@ -96,15 +96,13 @@
             <div class="row row-grid">
               <div class="col-md-6 mb-4">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon
-                    name="ni ni-check-bold"
-                    type="primary"
-                    rounded
-                    class="mb-4"
-                  >
-                  </icon>
-                  <h6 class="text-primary text-uppercase">thiết bị</h6>
-                  <p class="description mt-3 d-none">Thông tin giới thiệu</p>
+                  <div class="d-flex align-items-center">
+                    <icon type="primary" rounded class="mb-2">
+                      <Icon icon="healthicons:machinery" />
+                    </icon>
+                    <h5 class="text-primary text-uppercase ml-3">thiết bị</h5>
+                  </div>
+                  <p class="description mt-3">Thông tin mô tả</p>
                   <div>
                     <badge type="primary" rounded>cơ khí</badge>
                     <badge type="primary" rounded>tự động hóa</badge>
@@ -123,15 +121,13 @@
               </div>
               <div class="col-md-6 mb-4">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon
-                    name="ni ni-istanbul"
-                    type="success"
-                    rounded
-                    class="mb-4"
-                  >
-                  </icon>
-                  <h6 class="text-success text-uppercase">hóa chất</h6>
-                  <p class="description mt-3 d-none">Thông tin giới thiệu</p>
+                  <div class="d-flex align-items-center">
+                    <icon type="success" rounded class="mb-2">
+                        <Icon icon="carbon:chemistry" />
+                    </icon>
+                    <h5 class="text-success text-uppercase ml-3">hóa chất</h5>
+                  </div>
+                  <p class="description mt-3">Thông tin mô tả</p>
                   <div>
                     <badge type="success" rounded>business</badge>
                     <badge type="success" rounded>vision</badge>
@@ -149,10 +145,13 @@
               </div>
               <div class="col-md-6 mb-4">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon name="ni ni-planet" type="warning" rounded class="mb-4">
-                  </icon>
-                  <h6 class="text-warning text-uppercase">Tư vấn</h6>
-                  <p class="description mt-3 d-none">Thông tin giới thiệu</p>
+                  <div class="d-flex align-items-center">
+                    <icon type="warning" rounded class="mb-2">
+                        <Icon icon="fa-solid:handshake" />
+                    </icon>
+                    <h5 class="text-warning text-uppercase ml-3">Tư vấn</h5>
+                  </div>
+                  <p class="description mt-3">Thông tin mô tả</p>
                   <div>
                     <badge type="warning" rounded>chuyển giao công nghệ</badge>
                     <badge type="warning" rounded>nâng cấp</badge>
@@ -170,10 +169,13 @@
               </div>
               <div class="col-md-6 mb-4">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon name="ni ni-planet" type="danger" rounded class="mb-4">
-                  </icon>
-                  <h6 class="text-warning text-uppercase">Vận chuyển</h6>
-                  <p class="description mt-3 d-none">Thông tin giới thiệu</p>
+                  <div class="d-flex align-items-center">
+                    <icon type="danger" rounded class="mb-2">
+                      <Icon icon="mdi:truck" />
+                    </icon>
+                    <h5 class="text-warning text-uppercase ml-3">Vận chuyển</h5>
+                  </div>
+                  <p class="description mt-3">Thông tin mô tả</p>
                   <div>
                     <badge type="danger" rounded>kho bãi</badge>
                     <badge type="danger" rounded>vận chuyển</badge>

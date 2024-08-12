@@ -35,7 +35,7 @@
         <li>
           <a
             slot="title"
-            href="#"
+            href="#about"
             class="nav-link"
             data-toggle="dropdown"
             role="button"
@@ -47,12 +47,12 @@
         <base-dropdown tag="li" class="nav-item">
           <a
             slot="title"
-            href="#"
+            href="#solution"
             class="nav-link"
             data-toggle="dropdown"
             role="button"
           >
-            <i class="ni ni-collection d-lg-none"></i>
+            <!-- <i class="ni ni-collection d-lg-none"></i> -->
             <span class="nav-link-inner--text">Giải pháp</span>
           </a>
           <a class="dropdown-item">Thiết bị</a>
