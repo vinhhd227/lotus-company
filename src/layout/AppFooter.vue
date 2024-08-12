@@ -86,7 +86,7 @@
           <ul class="nav nav-footer justify-content-end">
             <li class="nav-item">
               <a
-                href="https://www.creative-tim.com"
+                href="#"
                 class="nav-link"
                 target="_blank"
                 rel="noopener"
@@ -95,7 +95,7 @@
             </li>
             <li class="nav-item">
               <a
-                href="https://www.creative-tim.com/presentation"
+                href="#about"
                 class="nav-link"
                 target="_blank"
                 rel="noopener"
@@ -104,7 +104,16 @@
             </li>
             <li class="nav-item">
               <a
-                href="http://blog.creative-tim.com"
+                href="#solution"
+                class="nav-link"
+                target="_blank"
+                rel="noopener"
+                >Giải pháp</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#contact"
                 class="nav-link"
                 target="_blank"
                 rel="noopener"
